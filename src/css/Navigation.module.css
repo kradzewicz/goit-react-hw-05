@@ -1,0 +1,12 @@
+/** @format */
+
+.navBox {
+  display: flex;
+  gap: 20px;
+  padding-bottom: 20px;
+  border-bottom: 2px solid black;
+  border-top: 2px solid black;
+  & * {
+    font-size: x-large;
+  }
+}
